@@ -1,59 +1,70 @@
-# Movie Explorer – Discover Your Favorite Films
+# Getting Started with Create React App
 
-Movie Explorer is a dynamic and responsive React web application that allows users to explore, search, and view detailed information about movies using real-time data fetched from the TMDb (The Movie Database) API. This app was built with the goal of providing an intuitive and engaging user experience for discovering new and trending films.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- User login interface with username and password.
-- Search bar to find movies by name.
-- Display of movie posters in a grid with title, release year, and rating.
-- Detailed movie view with overview, genre, cast, and trailer.
-- Trending movies section on the homepage.
-- Infinite scroll with "Load More" button.
-- Light mode and dark mode toggle.
-- Save favorite movies locally and view in a separate Favorites page.
-- Search filters by genre, year, and rating.
-- Embedded YouTube trailers.
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
 
-- **React** (with Create React App)
-- **React Router** for navigation
-- **Axios** for API requests
-- **Material-UI (MUI)** for UI design
-- **TMDb API** for movie data and trailers
-- **React Context API** for state management
-- **LocalStorage** for storing last search and favorites
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Getting Started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Clone the repository:
-2. Navigate to the project folder:
-3. Install dependencies:
-4. Create a `.env` file in the root and add your TMDb API key:
-5. Start the app:
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 🌐 Live Demo
+### `npm run build`
 
-Try the live app here:  
-👉 [https://Movie-Explorer.netlify.app](https://Movie-Explorer.netlify.app)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 📁 Folder Structure
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- `src/components/` – Reusable components like MovieCard, SearchBar, etc.
-- `src/pages/` – Main pages: Home, Favorites, Movie Details.
-- `src/context/` – Context API for global state.
-- `src/utility/` – Utility functions for API requests and helpers.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Extra Features
+### `npm run eject`
 
-- YouTube trailer integration using TMDb video keys.
-- Movie filtering system.
-- Friendly error handling for API issues.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Author
-Keanusha Shanmugarajah
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
